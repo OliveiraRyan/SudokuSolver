@@ -106,9 +106,10 @@ def print_board():
     print(" ───────────────────────")
 
 
-print("Unsolved board:")
-print_board()
-start = time.time()
-solve()
-print("The number of unique solutions: {}".format(num_solutions))
-print ("Checking all possibilities took", time.time() - start, "seconds")
+if __name__ == '__main__':
+    print("Unsolved board:")
+    print_board()
+    start = time.time()
+    solve()
+    print("The number of unique solutions: {}".format(num_solutions))
+    print ("Checking all possibilities took", time.time() - start, "seconds")
