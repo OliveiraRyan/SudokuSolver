@@ -7,3 +7,8 @@ If multiple solutions exist, it gives you the option to iterate through all poss
 Only the first valid solution will get printed.
 
 To enter a grid, you must open up solverBacktrack.py and input the grid into the 2d array at the top.
+
+## TODO:
+* Update README
+* Try row-major for cSolver.c
+* Clean up time_util.h and cSolver.c
